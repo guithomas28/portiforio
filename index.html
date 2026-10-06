@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Guilherme Thomas — Redes e Cloud</title>
+<style>
+:root{--bg:#f4f6f5;--fg:#16201c;--mut:#5b6b64;--ac:#0a7a4f;--card:#fff;--bd:#cfd8d4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1512;--fg:#e2ece7;--mut:#8fa49a;--ac:#3ddc97;--card:#131e19;--bd:#25342d}}
+:root[data-theme="dark"]{--bg:#0d1512;--fg:#e2ece7;--mut:#8fa49a;--ac:#3ddc97;--card:#131e19;--bd:#25342d}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 56px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 "Segoe UI",system-ui,sans-serif}
+.m{font-family:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--bd);display:flex;justify-content:space-between;align-items:center;padding:12px 20px;gap:12px;flex-wrap:wrap;z-index:5}
+nav a{color:var(--fg);text-decoration:none;margin-left:16px;font-size:14px}
+nav a:hover,nav .logo{color:var(--ac)}
+nav .logo{margin:0;font-weight:700}
+main{max-width:860px;margin:0 auto;padding:0 20px 40px}
+section{padding:48px 0 8px}
+.prompt{color:var(--ac);font-size:14px;margin:0 0 8px}
+h1{font-size:clamp(2rem,7vw,3.2rem);line-height:1.1;margin:0 0 6px}
+h2{font-size:1.6rem;margin:0 0 20px}
+h3{font-size:1.05rem;margin:0 0 4px}
+p{margin:0 0 12px;max-width:68ch}
+.sub{color:var(--ac);font-size:1.15rem;margin-bottom:16px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 24px}
+.tag{border:1px solid var(--ac);color:var(--ac);padding:3px 10px;border-radius:4px;font-size:13px}
+.btn{display:inline-block;padding:10px 18px;border-radius:4px;text-decoration:none;font-size:14px;margin:0 10px 10px 0;border:1px solid var(--ac)}
+.btn.p{background:var(--ac);color:var(--bg)}
+.btn.s{color:var(--ac)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:6px;padding:16px}
+.card p{color:var(--mut);font-size:14.5px;margin:0}
+.st{font-size:12.5px;color:var(--ac);margin-bottom:6px;display:block}
+.contact{border:1px solid var(--bd);background:var(--card);border-radius:6px;padding:24px;margin-top:48px}
+.contact a{color:var(--ac)}
+footer{border-top:1px solid var(--bd);color:var(--mut);font-size:13px;text-align:center;padding:20px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--ac);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav class="m">
+  <a class="logo" href="#topo">guilherme.thomas ~$</a>
+  <div><a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a><a href="#certificacoes">Certificações</a><a href="#contato">Contato</a></div>
+</nav>
+<main id="topo">
+  <section>
+    <p class="prompt m">$ whoami</p>
+    <h1>Guilherme Thomas</h1>
+    <div class="sub m">Redes e Cloud</div>
+    <p>Graduado em Sistemas de Informação pela UNINOVE, em busca de oportunidade em suporte cloud, redes e cibersegurança. Certificado AWS Cloud Practitioner, com laboratórios próprios para praticar redes e segurança.</p>
+    <div class="tags m">
+      <span class="tag">AWS Cloud Practitioner</span>
+      <span class="tag">CCNAv7: Introdução às Redes</span>
+      <span class="tag">CCNA 200-301 — em preparação</span>
+      <span class="tag">AWS SAA-C03 — em preparação</span>
+    </div>
+    <a class="btn p m" href="#contato">Entrar em contato</a><a class="btn s m" href="#habilidades">Ver habilidades</a>
+  </section>
+
+  <section id="sobre">
+    <p class="prompt m">// Quem sou</p>
+    <h2>Sobre mim</h2>
+    <div class="grid">
+      <div class="card"><h3>Formação</h3><p>Sistemas de Informação na UNINOVE, São Paulo, com foco em infraestrutura, redes e computação em nuvem.</p></div>
+      <div class="card"><h3>Transição para TI</h3><p>Vim da área de farmácia, onde atuei como auxiliar. Levo comigo atenção a processos, organização e atendimento ao cliente.</p></div>
+      <div class="card"><h3>Próximos passos</h3><p>Estudando para o CCNA 200-301 pela Cisco NetAcad e para o AWS Solutions Architect Associate (SAA-C03).</p></div>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <p class="prompt m">// Toolkit</p>
+    <h2>Habilidades</h2>
+    <div class="grid">
+      <div class="card"><span class="st m">Certificado</span><h3>AWS Cloud</h3><p>Fundamentos de nuvem, serviços principais da AWS, segurança, custos e modelo de responsabilidade compartilhada.</p></div>
+      <div class="card"><span class="st m">Estudando</span><h3>Redes (CCNA)</h3><p>Endereçamento IP, roteamento, switching, VLANs e serviços de rede.</p></div>
+      <div class="card"><span class="st m">Prática</span><h3>Linux</h3><p>Uso e personalização de Linux no dia a dia, linha de comando e ferramentas de administração.</p></div>
+      <div class="card"><span class="st m">Prática</span><h3>Virtualização e home lab</h3><p>Laboratório com KVM em rede isolada para treinar redes e segurança.</p></div>
+    </div>
+  </section>
+
+  <section id="certificacoes">
+    <p class="prompt m">// Conquistas</p>
+    <h2>Certificações</h2>
+    <div class="grid">
+      <div class="card"><span class="st m">Concluída · ago. 2023</span><h3>AWS Certified Cloud Practitioner</h3><p>Amazon Web Services · emitida em ago. 2023, válida até jun. 2029 · IAM, Amazon RDS e outros</p><p style="margin-top:10px"><a class="m" style="color:var(--ac);font-size:13px" href="https://www.credly.com/badges/8bb2bf62-fb30-4535-bb89-950848be6be4" target="_blank" rel="noopener">Ver credencial ↗</a></p></div>
+      <div class="card"><span class="st m">Concluído · ago. 2026</span><h3>CCNAv7: Introdução às Redes</h3><p>Cisco Networking Academy · Ethernet, IPv4 e fundamentos de redes</p><p style="margin-top:10px"><a class="m" style="color:var(--ac);font-size:13px" href="https://www.credly.com/badges/304729c6-57a5-4ba6-8bdf-79a7d0e1b09b" target="_blank" rel="noopener">Ver credencial ↗</a></p></div>
+      <div class="card"><span class="st m">Em preparação</span><h3>CCNA 200-301</h3><p>Cisco</p></div>
+      <div class="card"><span class="st m">Em preparação</span><h3>AWS Solutions Architect Associate (SAA-C03)</h3><p>Amazon Web Services</p></div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="contact">
+      <p class="prompt m">guilherme@cloud: ~/contato</p>
+      <h2>Vamos conversar?</h2>
+      <p>Aberto a oportunidades em suporte cloud, redes e cibersegurança, além de projetos e networking.</p>
+      <p class="m"><a href="https://linkedin.com/in/guithomasbr" target="_blank" rel="noopener">LinkedIn</a> &nbsp; <a href="mailto:guithomasbr@gmail.com">guithomasbr@gmail.com</a> &nbsp; <a href="https://wa.me/5511961113965" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </section>
+</main>
+<footer class="m">© 2026 Guilherme Thomas — Sistemas de Informação, UNINOVE</footer>
+</body>
+</html>
